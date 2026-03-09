@@ -1,0 +1,38 @@
+.about-page {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.about-main {
+  min-height: 60vh;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+}
+
+.about-main h1 {
+  font-size: 3rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease;
+}
+
+.about-main p {
+  font-size: 1.2rem;
+  color: #4b5563;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
